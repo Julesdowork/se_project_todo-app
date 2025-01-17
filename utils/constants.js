@@ -28,4 +28,13 @@ const validationConfig = {
   inactiveButtonClass: "button_disabled",
 };
 
-export { initialTodos, validationConfig };
+const todoConfig = {
+  todoClass: ".todo",
+  todoName: ".todo__name",
+  todoCheckbox: ".todo__completed",
+  todoLabel: ".todo__label",
+  todoDate: ".todo__date",
+  todoDeleteButton: ".todo__delete-btn"
+};
+
+export { initialTodos, validationConfig, todoConfig };
